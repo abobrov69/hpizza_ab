@@ -1,0 +1,2984 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr" >
+<?xml version="1.0" encoding="utf-8"?>
+<head>
+<script src="http://vkontakte.ru/js/api/openapi.js" type="text/javascript" charset="windows-1251"></script>
+  <base href="http://www.hardpizza.ru/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Пицца с доставкой Екатеринбург. Бесплатная доставка пиццы.  Заказ и доставка пиццы. Екатеринбург. Бесплатная доставка, пиццы, суши, роллов, салатов, закусок, доставка пиццы, доставка роллов. " />
+  <meta name="title" content="HardPizza - заказ и доставка пиццы. Екатеринбург. Бесплатная доставка." />
+  <meta name="description" content="Hard Pizza / Хард Пицца - Доставка пиццы, суши, роллов по Екатеринбургу. Бесплатная доставка в Екатеринбурге. Скидки на все меню: пиццу, роллы, суши и др." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>HardPizza - заказ и доставка пиццы. Екатеринбург. Бесплатная доставка.</title>
+  <link href="/" rel="canonical" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/components/com_virtuemart/assets/css/facebox.css" type="text/css" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_sj_minicart_pro/assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_sj_minicart_pro/assets/css/jquery.jscrollpane.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_sj_minicart_pro/assets/css/style-scrollbar.css" type="text/css" />
+  <style type="text/css">
+	
+	#sj_minicart_pro_279970831374576383 .mc-content{
+			}
+	
+	#sj_minicart_pro_279970831374576383 .mc-content .mc-content-inner{
+		<!--width:px;-->
+	}
+	
+	#sj_minicart_pro_279970831374576383 .mc-list .mc-product-inner .mc-image{
+		max-width:260px;
+	}
+	
+	#sj_minicart_pro_279970831374576383  .mc-content .mc-content-inner  .mc-list-inner{
+		max-height:270px;
+	}
+	
+	#sj_minicart_pro_279970831374576383 .mc-content .mc-content-inner .mc-list,
+	#sj_minicart_pro_279970831374576383 .mc-content .mc-content-inner .mc-top{
+		display:block	}
+	
+	#sj_minicart_pro_279970831374576383 .mc-content .mc-content-inner .mc-coupon{
+		display:block	}
+	
+	#sj_minicart_pro_279970831374576383 .mc-content .mc-content-inner  .mc-footer{
+		display:block	}
+	
+	#sj_minicart_pro_279970831374576383 .mc-content .mc-content-inner .mc-coupon .coupon-label,
+	#sj_minicart_pro_279970831374576383 .mc-content .mc-content-inner .mc-coupon .coupon-input{
+			}
+	
+	#sj_minicart_pro_279970831374576383 .mc-content .mc-content-inner .mc-coupon  .coupon-message{
+			}
+	
+	#sj_minicart_pro_279970831374576383 .mc-list .mc-product-inner .mc-attribute{
+		margin-left:10px;
+	}
+	
+
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+  <script src="/plugins/system/jqueryeasy/jquerynoconflict.js" type="text/javascript"></script>
+  
+  
+  <script src="/components/com_virtuemart/assets/js/vmsite.js" type="text/javascript"></script>
+  <script src="/components/com_virtuemart/assets/js/facebox.js" type="text/javascript"></script>
+  <script src="/components/com_virtuemart/assets/js/vmprices.js" type="text/javascript"></script>
+  <script src="/modules/mod_sj_minicart_pro/assets/js/jsmart.noconflict.js" type="text/javascript"></script>
+  <script src="/modules/mod_sj_minicart_pro/assets/js/jquery.jscrollpane.js" type="text/javascript"></script>
+  <script src="/modules/mod_sj_minicart_pro/assets/js/jquery.mousewheel.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+//<![CDATA[
+		vmSiteurl = 'http://www.hardpizza.ru/' ;
+vmLang = '&amp;lang=ru' ;
+vmCartText = ' добавлен в корзину' ;
+vmCartError = 'Ошибка обновления корзины' ;
+loadingImage = '/components/com_virtuemart/assets/images/facebox/loading.gif' ;
+closeImage = '/components/com_virtuemart/assets/images/facebox/closelabel.png' ; 
+Virtuemart.addtocart_popup = '1' ; 
+faceboxHtml = '<div id="facebox" style="display:none;"><div class="popup"><div class="content"></div> <a href="#" class="close"></a></div></div>'  ;
+
+//]]>
+
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});
+jQuery(document).ready(function () {
+	jQuery('.orderlistcontainer').hover(
+		function() { jQuery(this).find('.orderlist').stop().show()},
+		function() { jQuery(this).find('.orderlist').stop().hide()}
+	)
+});
+
+  </script>
+
+<script type="text/javascript">
+var cm_bt=1;
+</script>
+<script type="text/javascript" src="/callme/js/callme.js"></script>
+<script type="text/javascript" language="javascript" src="http://www.hardpizza.ru/templates/default/javascript/jquery.colorbox-min.js"></script>
+<script src="http://www.hardpizza.ru/templates/default/javascript/jquery.cookie.js"></script>
+<script type="text/javascript">
+    var ie = 1;
+</script>
+<!--[if lte IE 8]><script type="text/javascript">
+    var ie = 8;
+</script><![endif]-->
+<script type="text/javascript" language="javascript">
+         if (ie == 1) {
+        jQuery(document).ready(function(){         
+		jQuery(".ajax").colorbox({onComplete:function(){update_form()}, maxHeight:"80%", returnFocus:false, scalePhotos:false, fixed:true});
+		jQuery(".img-product").colorbox({maxHeight:"80%", returnFocus:false});
+        })}
+</script>
+<script type="text/javascript" language="javascript">
+         if (ie == 8) {
+        jQuery(document).ready(function(){         
+		jQuery(".img-product").colorbox({maxHeight:"80%", returnFocus:false});
+        })}
+</script>
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="/templates/default/css/template.css" type="text/css" />
+</head>
+<body>
+<div class="fon">
+<div id="top">
+<div id="header_top"> 		<div class="moduletable">
+					
+
+<div class="custom"  >
+	<div class="phone">
+<img src="/templates/default/images/phone.png" alt="" />
+</div>
+<div class="time">
+<img src="/templates/default/images/time.png" alt="" />
+</div>
+<div class="visamastercard">
+<img src="/templates/default/images/VisaMastercard.jpg" alt="" />
+</div></div>
+		</div>
+			<div class="moduletable_stock">
+					
+
+<div class="custom_stock"  >
+	<a href="/images/stock.png" class="img-product cboxElement" title="Наши акции!"><img src="/images/akziya.png" alt="queen" class="featuredProductImage" border="0" /></a></div>
+		</div>
+	 </div>
+<div id="user_menu"> 		<div class="moduletable">
+					
+<ul class="menu">
+<li class="item-118 active"><a class="hard-menu" href="/" title="Вкуснейшая пицца с доставкой в Екатеринбурге!" >Пицца</a></li><li class="item-119"><a class="hard-menu" href="/dostavka-rollov.html" title="Нежные роллы с доставкой в Екатеринбурге!" >Суши</a></li><li class="item-145"><a class="hard-menu" href="/kitajskaya-eda.html" >Китайская еда</a></li><li class="item-146"><a class="hard-menu" href="/zakuski.html" title="Доставка еды, закусок в Екатеринбурге. Нагетсы, жаренные крылышки, гренки и охотничьи колбаски с доставкой в Екатеринбурге." ><span class="noactive">Закуски</span></a></li><li class="item-147"><a class="hard-menu" href="/salaty.html" ><span class="noactive">Салаты</span></a></li><li class="item-148"><a class="hard-menu" href="/deserty.html" ><span class="noactive">Десерты</span></a></li><li class="item-139"><a class="hard-menu" href="/drinks.html" ><span class="noactive">Напитки</span></a></li><li class="item-111"><a class="hard-menu" href="/dostavka-oplata.html" ><span class="noactive">Доставка и оплата</span></a></li></ul>
+		</div>
+	</div> 
+</div>
+<div id="page">
+
+<div id="content80"> 
+<div id="product-menu"> 		<div class="moduletable">
+					
+<ul class="menufilter">
+<li class="item-126 current active deeper parent"><a href="/" ><strong>Все</strong></a><ul><li class="item-135"><a href="/pizza/myaso.html" ><span class="noactive">Мясо</span></a></li><li class="item-128"><a href="/pizza/ptitsa.html" ><span class="noactive">Птица</span></a></li><li class="item-127"><a href="/pizza/griby.html" ><span class="noactive">Грибы</span></a></li><li class="item-130"><a href="/pizza/salyami.html" ><span class="noactive">Салями</span></a></li><li class="item-133"><a href="/pizza/ostraya.html" ><span class="noactive">Острая</span></a></li><li class="item-129"><a href="/pizza/ryba.html" ><span class="noactive">Рыба</span></a></li><li class="item-134"><a href="/pizza/ovoshchnaya.html" ><span class="noactive">Овощная</span></a></li><li class="item-132"><a href="/pizza/moreprodukty.html" ><span class="noactive">Морепродукты</span></a></li><li class="item-141"><a href="/pizza/dvojnaya.html" ><span class="noactive">Двойная</span></a></li></ul></li></ul>
+		</div>
+	 </div> 
+
+<div id="system-message-container">
+</div> <script type="text/javascript">
+/*<![CDATA[*/
+var preloader_visible=false;
+function add_countries() {
+	new Request.JSON({
+		'url':'index.php?option=com_virtuemart&amp;view=state&amp;format=json&amp;virtuemart_country_id='+document.id('shipto_virtuemart_country_id').value,
+		'async':false,
+		'noCache':true,
+		'onSuccess':function(json,text) {
+			document.id('shipto_virtuemart_state_id').options.length=1;
+			if(document.id('shipto_virtuemart_state_id').getElements('optgroup')[0]) {
+				document.id('shipto_virtuemart_state_id').getElements('optgroup')[0].destroy();
+			}
+			var states=json[+document.id('shipto_virtuemart_country_id').value];
+			if(states.length) {
+				var optgroup=new Element('optgroup',{
+					'label':document.id('shipto_virtuemart_country_id').options[document.id('shipto_virtuemart_country_id').selectedIndex].text
+				});
+				document.id('shipto_virtuemart_state_id').grab(optgroup);
+				
+				
+				states.each(function(item) {
+					optgroup.grab(new Element('option',{
+						'value':item.virtuemart_state_id,
+						'text':item.state_name
+					}));
+				});
+			}
+		}
+	}).send();
+}
+
+	window.addEvent('domready',function() {
+		var preloader=new Element('div',{
+			'id':'preloader'
+		});
+		document.getElementsByTagName('body')[0].appendChild(preloader);
+		var img=new Element('img',{
+			'src':'http://test2.clinic-it.ru/plugins/system/onepage/images/loader.gif',
+			'id':'preloader_img'
+		});
+		preloader.grab(img);
+		preloader.setStyle('display','none');
+	});	
+	
+function create_preloader() {
+			document.id('preloader').setStyle('display','');
+		document.id('preloader').setStyle('height',Math.max( document.body.scrollHeight, document.body.offsetHeight,document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight ));
+		document.id('preloader_img').position('center');
+		preloader_visible=true;
+		}
+/*window.addEvent('domready',function() {
+    if(document.id('zip_field') && document.id('zip_field').value=='1') {
+	document.id('zip_field').setProperty('value',"");
+    }
+    update_form(false);
+    document.id('system-message-container').setAttribute('style','display:none');
+});*/
+
+function remove_preloader() {
+			document.id('preloader').setStyle('display','none');
+	 	}
+
+function set_st(item) {
+	if(item.checked) {
+		document.id('table_shipto').style.display='none';
+	} else {
+		document.id('table_shipto').style.display='';
+	}
+	update_form();
+} 
+
+function toggle_register(state) {
+	if(state) {
+		document.id('table_user').setStyle('display','');
+	} else {
+		document.id('table_user').setStyle('display','none');
+	}
+}
+
+function set_coupon() {
+	create_preloader();
+	new Request.JSON({
+		'url':'index.php?type=onepage&amp;opc_task=set_coupon',
+		'noCache':true,
+		'method':'post',
+		'data':'coupon='+document.id('coupon_code').value,
+		'onSuccess':function(json,text) {
+			if(json.error) {
+				alert(json.message);
+				var cart=json.cart;
+				document.id('coupon_code_txt').set('text','');
+			}  else {
+				var cart=json;
+				document.id('coupon_code_txt').set('text',document.id('coupon_code').value);
+			}
+			
+							if(cart.salesPriceCoupon) {
+					document.id('coupon_price').set('text',cart.salesPriceCoupon);
+				} else {
+					document.id('coupon_price').set('text','');
+				}
+						document.id('total_amount').set('text',cart.billDiscountAmount);
+			document.id('bill_total').set('text',cart.billTotal);
+			remove_preloader();
+		}
+	}).send();
+}
+
+
+function update_form(task,id) {
+    
+	var did=id;
+	
+	if(task=='update_product') {
+		if(document.id('quantity_'+id).value<=0) {
+			return alert('You can\'t use zero or negative values');
+		}
+	}
+	var update_address=true;
+        if(task==false) {
+            update_address=false;
+        }
+	create_preloader();
+	var url="index.php?type=onepage";
+	if(!task) {
+		var task='update_form';
+	}
+	url+='&amp;opc_task='+task;
+	if(id) {
+		url+='&amp;id='+id;
+	}
+	if(task=='update_product') {
+		url+='&amp;quantity='+document.id('quantity_'+id).value;
+	}
+	if(update_address==false) {
+            url+='&amp;update_address=false';
+        }
+
+
+	new Request.JSON({
+		'url':url,
+		'method':'post',
+		'noCache':true,
+		'data':document.id('checkoutForm').toQueryString(),
+		'onSuccess':function(json,text) {
+			if(json.error) {
+				remove_preloader();
+				alert(json.message);
+			} else {
+				Virtuemart.productUpdate(jQuery('.vmCartModule'));
+				if(task=='remove_product') {
+					document.id('product_row_'+did).destroy();
+					mod=jQuery(".vmCartModule");
+					jQuery.getJSON(vmSiteurl+"index.php?option=com_virtuemart&amp;nosef=1&amp;view=cart&amp;task=viewJS&amp;format=json"+vmLang,
+						function(datas, textStatus) {
+							if (datas.totalProduct >0) {
+								mod.find(".vm_cart_products").html("");
+								jQuery.each(datas.products, function(key, val) {
+									jQuery("#hiddencontainer .container").clone().appendTo(".vmCartModule .vm_cart_products");
+									jQuery.each(val, function(key, val) {
+										if (jQuery("#hiddencontainer .container ."+key)) mod.find(".vm_cart_products ."+key+":last").html(val) ;
+									});
+								});
+								mod.find(".total").html(datas.billTotal);
+								mod.find(".show_cart").html(datas.cart_show);
+							} else {
+								mod.find(".vm_cart_products").html("");
+								mod.find(".total").html(datas.billTotal);
+							}
+							mod.find(".total_products").html(datas.totalProductTxt);
+						}
+					);
+				}
+				
+				for(var id in json.price.products) {
+				    				    //document.id('subtotal_discount_'+id).set('text',json.price.products[id].subtotal_discount);
+				    //document.id('subtotal_with_tax_'+id).set('html',json.price.products[id].subtotal_with_tax);
+				}
+				
+								document.id('discount_amount').set('text',json.price.discountAmount);
+				document.id('sales_price').set('text',json.price.salesPrice);
+				
+								document.id('shipment').set('text',json.price.salesPriceShipment);
+				
+								document.id('payment').set('text',json.price.salesPricePayment);
+				
+								
+				document.id('total_amount').set('text',json.price.billDiscountAmount);
+				document.id('bill_total').set('text',json.price.billTotal);
+				
+				document.id('shipments').empty();
+				var shipments="";
+				if(json.shipments) {
+				    for(var i=0;i<json.shipments.length;i++) {
+				    	shipments+=json.shipments[i].toString().replace('input','input onclick="update_form();"')+'<br />';
+				    }
+				    document.id('shipments').set('html',shipments);
+				}
+				
+				document.id('payments').empty();
+				var payments="";
+				if(json.payments) {
+				    for(var i=0;i<json.payments.length;i++) {
+					payments+=json.payments[i].toString().replace('input','input onclick="update_form();"')+'<br />';
+				    }
+				    document.id('payments').set('html',payments);
+				}
+				
+				remove_preloader();
+			}
+		}
+	}).send();
+	}
+
+function submit_order() {	
+		var shipments_checked=false;
+	var payments_checked=false;
+	if(document.id('shipments')) {
+		for(var i=0;i<document.id('shipments').getElements('input').length;i++) {
+			if(document.id('shipments').getElements('input')[i].checked==true) {
+				shipments_checked=true;
+				break;
+			}	
+		}
+		if(shipments_checked==false) {
+			return alert('Пожалуйста, выберите способ доставки');
+		}
+	}
+	
+	if(document.id('payments')) {
+		for(var i=0;i<document.id('payments').getElements('input').length;i++) {
+			if(document.id('payments').getElements('input')[i].checked==true) {
+				payments_checked=true;
+				break;
+			}
+		}
+		if(payments_checked==false) {
+			return alert('Пожалуйста, выберите способ оплаты');
+		}
+	}
+	
+	var register_state=true;
+	if(document.id('register') && document.id('register').checked==true) {
+		register_state=false;
+		new Request.JSON({
+			'url':'index.php?type=onepage&amp;opc_task=register',
+			'method':'post',
+			'async':false,
+			'noCache':true,
+			'data':document.id('div_billto').toQueryString()+'&amp;address_type=BT&amp;588f843ce56446d6be1b439f5e234ca1=1',
+			'onSuccess':function(json,text) {
+				if(json.error && json.error==1) {
+					alert(json.message);
+				} else {
+					register_state=true;
+				}
+			},
+			'onFailure':function(xhr) {
+				if(xhr.status==500); {
+					register_state=true;
+				}
+			}
+		}).send();
+	}
+	if(!register_state) {
+		return;
+	}
+	
+	var validator=new JFormValidator();
+	validator.attachToForm(document.id('table_shipto'));
+	var valid=true;
+	document.id('table_billto').getElements('input').each(function(el) {
+		var cval=validator.validate(el);;
+		valid=valid && cval;
+	});
+	/*if(valid && document.id('virtuemart_country_id').value<=0) {
+		return alert('Отсутствуют значения Страна');
+	}*/
+	if(!valid) {
+		window.location.hash ='cart_top';
+		return;
+	}
+	
+			
+	if(document.id('STsameAsBT').checked==true) {
+		var ship_to=document.id('table_shipto').getElements('input');
+		var bill_to=document.id('table_billto');
+		
+		ship_to.each(function(item) {
+			var name=item.get('id').replace('shipto_','');
+			if(bill_to.getElementById(name)) {
+				item.set('value',bill_to.getElementById(name).get('value'));
+			}
+		});
+		/*document.id('table_shipto').getElementById('shipto_virtuemart_country_id').set('value',document.id('table_billto').getElementById('virtuemart_country_id').get('value'));*/
+	} else {
+		var validator=new JFormValidator();
+		validator.attachToForm(document.id('table_billto'));
+		var valid=true;
+		document.id('table_billto').getElements('input').each(function(el) {
+			var cval=validator.validate(el);;
+			valid=valid && cval;
+		});
+		/*if(valid && document.id('virtuemart_country_id').value<=0) {
+			return alert('Отсутствуют значения Страна');
+		}*/
+		if(!valid) {
+			window.location.hash='cart_top';
+			return;
+		}
+	}
+			
+		
+	new Request.JSON({
+		'url':'index.php?type=onepage&amp;opc_task=set_checkout',
+		'target':'_top',
+		'method':'post',
+		'data':document.id('checkoutForm').toQueryString(),
+		'async':false,
+		'noCache':true,
+		'onSuccess':function(json,text) {
+			// Fucky IE adds to task 'update' for some unexpected cause
+			document.checkoutForm.task.value='confirm';
+			//alert(document.checkoutForm.task.value);
+			document.checkoutForm.submit();
+		}	
+	}).send();
+}
+/*]]>*/
+</script>
+
+
+		<div class="category-view">
+
+					<div class="row">
+							<div class="category floatleft width10 vertical-separator">
+					<div class="spacer" style="display:none;">
+						<h2>
+							<a href="/pizza/myaso.html" title="Пицца с мясом">
+								Пицца с мясом								<br/>
+															</a>
+						</h2>
+					</div>
+				</div>
+								<div class="category floatleft width10 vertical-separator">
+					<div class="spacer" style="display:none;">
+						<h2>
+							<a href="/pizza/dvojnaya.html" title="Двойная">
+								Двойная								<br/>
+															</a>
+						</h2>
+					</div>
+				</div>
+								<div class="category floatleft width10 vertical-separator">
+					<div class="spacer" style="display:none;">
+						<h2>
+							<a href="/pizza/salyami.html" title="Пицца с салями">
+								Пицца с салями								<br/>
+															</a>
+						</h2>
+					</div>
+				</div>
+								<div class="category floatleft width10 vertical-separator">
+					<div class="spacer" style="display:none;">
+						<h2>
+							<a href="/pizza/griby.html" title="Пицца с грибами">
+								Пицца с грибами								<br/>
+															</a>
+						</h2>
+					</div>
+				</div>
+								<div class="category floatleft width10 vertical-separator">
+					<div class="spacer" style="display:none;">
+						<h2>
+							<a href="/pizza/ryba.html" title="Пицца с рыбой">
+								Пицца с рыбой								<br/>
+															</a>
+						</h2>
+					</div>
+				</div>
+								<div class="category floatleft width10 vertical-separator">
+					<div class="spacer" style="display:none;">
+						<h2>
+							<a href="/pizza/ptitsa.html" title="Пицца с птицей">
+								Пицца с птицей								<br/>
+															</a>
+						</h2>
+					</div>
+				</div>
+								<div class="category floatleft width10 vertical-separator">
+					<div class="spacer" style="display:none;">
+						<h2>
+							<a href="/pizza/ostraya.html" title="Пицца острая">
+								Пицца острая								<br/>
+															</a>
+						</h2>
+					</div>
+				</div>
+								<div class="category floatleft width10 vertical-separator">
+					<div class="spacer" style="display:none;">
+						<h2>
+							<a href="/pizza/ovoshchnaya.html" title="Пицца овощная">
+								Пицца овощная								<br/>
+															</a>
+						</h2>
+					</div>
+				</div>
+								<div class="category floatleft width10 vertical-separator">
+					<div class="spacer" style="display:none;">
+						<h2>
+							<a href="/pizza/moreprodukty.html" title="Пицца с морепродуктами">
+								Пицца с морепродуктами								<br/>
+															</a>
+						</h2>
+					</div>
+				</div>
+							<div class="clear"></div>
+		</div>
+		</div>
+
+	<div class="browse-view browse-view-7">
+
+ <!-- end of orderby-displaynumber -->
+
+<h1>Пицца</h1>
+<div class="category_description">
+	</div>
+
+
+		<div class="row">
+			<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice36">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >200 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/queen.png" class="img-product" title="1. Queen. Состав: Салями и пепперони, помидор Черри, маслины, сыр Пармезан, сыр Моцарелла, руккола"><img src="/images/shop/resized/queen_370x370.png" alt="queen" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					1. Queen										</h3>
+											<p class="product_s_desc">
+							Салями и пепперони, помидор Черри, маслины, сыр Пармезан, сыр Моцарелла, руккола.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct36">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c103f110" checked="checked" type="radio" value="103" name="customPrice[0][11]" /><label
+										for="c103f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c15f110"  type="radio" value="15" name="customPrice[0][11]" /><label
+										for="c15f110" class="other-customfield">30см. / 550гр.</label></div><div class="field_1"><input id="c16f110"  type="radio" value="16" name="customPrice[0][11]" /><label
+										for="c16f110" class="other-customfield">40см. / 850гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="1. Queen" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="36" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="9" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice37">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >220 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/gitarnyj-grib.png" class="img-product" title="2. Гитарный гриб. Состав: Шампиньоны, опята, сыр Пармезан, сыр Моцарелла, зеленый лук, сливочный соус."><img src="/images/shop/resized/gitarnyj-grib_370x370.png" alt="gitarnyj-grib" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					2. Гитарный гриб										</h3>
+											<p class="product_s_desc">
+							Шампиньоны, опята, сыр Пармезан, сыр Моцарелла, зеленый лук, сливочный соус.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct37">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c104f110" checked="checked" type="radio" value="104" name="customPrice[0][11]" /><label
+										for="c104f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c17f110"  type="radio" value="17" name="customPrice[0][11]" /><label
+										for="c17f110" class="other-customfield">30см. / 550гр.</label></div><div class="field_1"><input id="c18f110"  type="radio" value="18" name="customPrice[0][11]" /><label
+										for="c18f110" class="other-customfield">40см. / 850гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="2. Гитарный гриб" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="37" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="10" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 ">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice38">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >250 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/blondi.png" class="img-product" title="3. Блонди. Состав: Лосось, сыр Филадельфия, сыр Пармезан, сыр Моцарелла, помидор Черри, сливочный соус, розмарин."><img src="/images/shop/resized/blondi_370x370.png" alt="blondi" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					3. Блонди										</h3>
+											<p class="product_s_desc">
+							Лосось, сыр Филадельфия, сыр Пармезан, сыр Моцарелла, помидор Черри, сливочный соус, розмарин.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct38">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c105f110" checked="checked" type="radio" value="105" name="customPrice[0][11]" /><label
+										for="c105f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c19f110"  type="radio" value="19" name="customPrice[0][11]" /><label
+										for="c19f110" class="other-customfield">30см. / 550гр.</label></div><div class="field_1"><input id="c20f110"  type="radio" value="20" name="customPrice[0][11]" /><label
+										for="c20f110" class="other-customfield">40см. / 850гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="3. Блонди" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="38" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="11" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+					<div class="clear"></div>
+   </div> <!-- end of row -->
+					<div class="horizontal-separator"></div>
+				<div class="row">
+			<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice39">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >300 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/zheltaya-podvodnaya-lodka.png" class="img-product" title="4. Желтая подводная лодка. Состав: Курица, шампиньоны, сыр Пармезан, сыр Моцарелла, лук репчатый, сметанный соус."><img src="/images/shop/resized/zheltaya-podvodnaya-lodka_370x370.png" alt="zheltaya-podvodnaya-lodka" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					4. Желтая подводная лодка										</h3>
+											<p class="product_s_desc">
+							Курица, шампиньоны, сыр Пармезан, сыр Моцарелла, лук репчатый, сметанный соус.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct39">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c21f110" checked="checked" type="radio" value="21" name="customPrice[0][11]" /><label
+										for="c21f110" class="other-customfield">30см. / 500гр.</label></div><div class="field_1"><input id="c22f110"  type="radio" value="22" name="customPrice[0][11]" /><label
+										for="c22f110" class="other-customfield">40см. / 800гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="4. Желтая подводная лодка" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="39" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="10" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice40">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >260 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/kharlej-bekon.png" class="img-product" title="5. Харлей Бекон. Состав: Бекон, охотничьи колбаски, огурчик маринованный, сыр Пармезан, сыр Моцарелла, маслины, острый перец Халапеньо."><img src="/images/shop/resized/kharlej-bekon_370x370.png" alt="kharlej-bekon" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					5. Харлей Бекон										</h3>
+											<p class="product_s_desc">
+							Бекон, охотничьи колбаски, огурчик маринованный, сыр Пармезан, сыр Моцарелла, маслины, острый перец Халапеньо.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct40">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c106f110" checked="checked" type="radio" value="106" name="customPrice[0][11]" /><label
+										for="c106f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c23f110"  type="radio" value="23" name="customPrice[0][11]" /><label
+										for="c23f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c24f110"  type="radio" value="24" name="customPrice[0][11]" /><label
+										for="c24f110" class="other-customfield">40см. / 950гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="5. Харлей Бекон" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="40" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="8" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 ">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice41">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >190 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/opasnyj-dzhek.png" class="img-product" title="6. Опасный Джек. Состав: Копченая курица, яйцо,болгарский перчик, помидорки черри, маринованный огурчик, красный лук, маслины, сыр Пармезан, сыр Моцарелла, зеленый лук."><img src="/images/shop/resized/opasnyj-dzhek_370x370.png" alt="opasnyj-dzhek" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					6. Опасный Джек										</h3>
+											<p class="product_s_desc">
+							Копченая курица, яйцо,болгарский перчик, помидорки черри, маринованный огурчик, красный лук, маслины, сыр Пармезан, сыр Моцарелла, зеленый лук.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct41">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c107f110" checked="checked" type="radio" value="107" name="customPrice[0][11]" /><label
+										for="c107f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c25f110"  type="radio" value="25" name="customPrice[0][11]" /><label
+										for="c25f110" class="other-customfield">30см. / 700гр.</label></div><div class="field_1"><input id="c26f110"  type="radio" value="26" name="customPrice[0][11]" /><label
+										for="c26f110" class="other-customfield">40см. / 1000гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="6. Опасный Джек" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="41" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="12" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+					<div class="clear"></div>
+   </div> <!-- end of row -->
+					<div class="horizontal-separator"></div>
+				<div class="row">
+			<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice42">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >310 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/rok-n-rolshchik.png" class="img-product" title="7. Рок-н-Рольщик. Состав: Тунец, лимон, помидорки черри, перец Чили, оливки, красный лук,  сыр Пармезан, сыр Моцарелла, руккола."><img src="/images/shop/resized/rok-n-rolshchik_370x370.png" alt="rok-n-rolshchik" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					7. Рок-н-Рольщик										</h3>
+											<p class="product_s_desc">
+							Тунец, лимон, помидорки черри, перец Чили, оливки, красный лук,  сыр Пармезан, сыр Моцарелла, руккола.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct42">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c108f110" checked="checked" type="radio" value="108" name="customPrice[0][11]" /><label
+										for="c108f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c27f110"  type="radio" value="27" name="customPrice[0][11]" /><label
+										for="c27f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c28f110"  type="radio" value="28" name="customPrice[0][11]" /><label
+										for="c28f110" class="other-customfield">40см. / 1000гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="7. Рок-н-Рольщик" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="42" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="11" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice43">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >250 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/380-volt.png" class="img-product" title="8. 380 Вольт. Состав: Шейка пряная, томат, Халапеньо, каперсы, сыр Пармезан, сыр Моцарелла, базилик."><img src="/images/shop/resized/380-volt_370x370.png" alt="380-volt" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					8. 380 Вольт										</h3>
+											<p class="product_s_desc">
+							Шейка пряная, томат, Халапеньо, каперсы, сыр Пармезан, сыр Моцарелла, базилик.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct43">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c109f110" checked="checked" type="radio" value="109" name="customPrice[0][11]" /><label
+										for="c109f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c29f110"  type="radio" value="29" name="customPrice[0][11]" /><label
+										for="c29f110" class="other-customfield">30см. / 650гр.</label></div><div class="field_1"><input id="c30f110"  type="radio" value="30" name="customPrice[0][11]" /><label
+										for="c30f110" class="other-customfield">40см. / 950гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="8. 380 Вольт" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="43" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="8" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 ">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice44">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >250 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/kvartirnik.png" class="img-product" title="9. Квартирник. Состав: Салями, ветчина, яйцо, томат, помидорки Черри, огурчик маринованный, сыр Пармезан, сыр Моцарелла, маслины, лук репчатый, розмарин."><img src="/images/shop/resized/kvartirnik_370x370.png" alt="kvartirnik" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					9. Квартирник										</h3>
+											<p class="product_s_desc">
+							Салями, ветчина, яйцо, томат, помидорки Черри, огурчик маринованный, сыр Пармезан, сыр Моцарелла, маслины, лук репчатый, розмарин.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct44">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c110f110" checked="checked" type="radio" value="110" name="customPrice[0][11]" /><label
+										for="c110f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c31f110"  type="radio" value="31" name="customPrice[0][11]" /><label
+										for="c31f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c32f110"  type="radio" value="32" name="customPrice[0][11]" /><label
+										for="c32f110" class="other-customfield">40см. / 800гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="9. Квартирник" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="44" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="8" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+					<div class="clear"></div>
+   </div> <!-- end of row -->
+					<div class="horizontal-separator"></div>
+				<div class="row">
+			<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice45">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >190 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/udarnaya.png" class="img-product" title="10. Ударная (ее едят барабанными палочками). Состав: Ветчина, яйцо, перец болгарский, артишоки, Халапеньо, огурчик маринованный,  сыр Пармезан, сыр Моцарелла, маслины, руколла."><img src="/images/shop/resized/udarnaya_370x370.png" alt="udarnaya" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					10. Ударная (ее едят барабанными палочками)										</h3>
+											<p class="product_s_desc">
+							Ветчина, яйцо, перец болгарский, артишоки, Халапеньо, огурчик маринованный,  сыр Пармезан, сыр Моцарелла, маслины, руколла.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct45">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c111f110" checked="checked" type="radio" value="111" name="customPrice[0][11]" /><label
+										for="c111f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c33f110"  type="radio" value="33" name="customPrice[0][11]" /><label
+										for="c33f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c34f110"  type="radio" value="34" name="customPrice[0][11]" /><label
+										for="c34f110" class="other-customfield">40см. / 1000гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="10. Ударная (ее едят барабанными палочками)" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="45" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="8" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice46">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >240 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/666.png" class="img-product" title="11. 666. Состав: Копченая куриная грудка, перец Чили, томат, опята, маслины, сыр Пармезан,  сыр Моцарелла, Табаско, чабер."><img src="/images/shop/resized/666_370x370.png" alt="666" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					11. 666										</h3>
+											<p class="product_s_desc">
+							Копченая куриная грудка, перец Чили, томат, опята, маслины, сыр Пармезан,  сыр Моцарелла, Табаско, чабер.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct46">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c112f110" checked="checked" type="radio" value="112" name="customPrice[0][11]" /><label
+										for="c112f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c35f110"  type="radio" value="35" name="customPrice[0][11]" /><label
+										for="c35f110" class="other-customfield">30см. / 550гр.</label></div><div class="field_1"><input id="c36f110"  type="radio" value="36" name="customPrice[0][11]" /><label
+										for="c36f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="11. 666" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="46" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="10" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 ">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice47">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >220 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/kantri.png" class="img-product" title="12. Кантри. Состав: Бекон, вареная картошечка, томат, маринованный огурец, репчатый лук, маслины, сыр Пармезан, сыр Моцарелла, зеленый лук."><img src="/images/shop/resized/kantri_370x370.png" alt="kantri" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					12. Кантри										</h3>
+											<p class="product_s_desc">
+							Бекон, вареная картошечка, томат, маринованный огурец, репчатый лук, маслины, сыр Пармезан, сыр Моцарелла, зеленый лук.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct47">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c113f110" checked="checked" type="radio" value="113" name="customPrice[0][11]" /><label
+										for="c113f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c37f110"  type="radio" value="37" name="customPrice[0][11]" /><label
+										for="c37f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c38f110"  type="radio" value="38" name="customPrice[0][11]" /><label
+										for="c38f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="12. Кантри" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="47" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="8" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+					<div class="clear"></div>
+   </div> <!-- end of row -->
+					<div class="horizontal-separator"></div>
+				<div class="row">
+			<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice48">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >200 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/dzhusi-lyusi.png" class="img-product" title="13. Джуси Люси. Состав: Копченая курочка, ананасы, маслины, сыр Пармезан, сыр Моцарелла, руккола."><img src="/images/shop/resized/dzhusi-lyusi_370x370.png" alt="dzhusi-lyusi" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					13. Джуси Люси										</h3>
+											<p class="product_s_desc">
+							Копченая курочка, ананасы, маслины, сыр Пармезан, сыр Моцарелла, руккола.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct48">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c114f110" checked="checked" type="radio" value="114" name="customPrice[0][11]" /><label
+										for="c114f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c39f110"  type="radio" value="39" name="customPrice[0][11]" /><label
+										for="c39f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c40f110"  type="radio" value="40" name="customPrice[0][11]" /><label
+										for="c40f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="13. Джуси Люси" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="48" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="12" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice49">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >200 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/park-gorkogo.png" class="img-product" title="14. Парк Горького. Состав: Фета, помидор черри, сладкий перец, томат, сливочный соус, маслины, листья салата."><img src="/images/shop/resized/park-gorkogo_370x370.png" alt="park-gorkogo" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					14. Парк Горького										</h3>
+											<p class="product_s_desc">
+							Фета, помидор черри, сладкий перец, томат, сливочный соус, маслины, листья салата.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct49">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c115f110" checked="checked" type="radio" value="115" name="customPrice[0][11]" /><label
+										for="c115f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c41f110"  type="radio" value="41" name="customPrice[0][11]" /><label
+										for="c41f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c42f110"  type="radio" value="42" name="customPrice[0][11]" /><label
+										for="c42f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="14. Парк Горького" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="49" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="15" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 ">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice50">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >150 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/margarita.png" class="img-product" title="15. Маргарита. Состав: Сыр Пармезан, сыр Моцарелла томат, базилик."><img src="/images/shop/resized/margarita_370x370.png" alt="margarita" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					15. Маргарита										</h3>
+											<p class="product_s_desc">
+							Сыр Пармезан, сыр Моцарелла томат, базилик.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct50">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c116f110" checked="checked" type="radio" value="116" name="customPrice[0][11]" /><label
+										for="c116f110" class="other-customfield">20см. / 300гр.</label></div><div class="field_1"><input id="c43f110"  type="radio" value="43" name="customPrice[0][11]" /><label
+										for="c43f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c44f110"  type="radio" value="44" name="customPrice[0][11]" /><label
+										for="c44f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="15. Маргарита" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="50" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="15" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+					<div class="clear"></div>
+   </div> <!-- end of row -->
+					<div class="horizontal-separator"></div>
+				<div class="row">
+			<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice51">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >220 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/red-khot-chili.png" class="img-product" title="16. Ред Хот Чили Пепперс. Состав: Охотничьи колбаски, салями, шейка, томат, сыр Моцарелла, Сыр Пармезан, перец Халапеньо, перец Чили."><img src="/images/shop/resized/red-khot-chili_370x370.png" alt="red-khot-chili" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					16. Ред Хот Чили Пепперс										</h3>
+											<p class="product_s_desc">
+							Охотничьи колбаски, салями, шейка, томат, сыр Моцарелла, Сыр Пармезан, перец Халапеньо, перец Чили.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct51">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c117f110" checked="checked" type="radio" value="117" name="customPrice[0][11]" /><label
+										for="c117f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c45f110"  type="radio" value="45" name="customPrice[0][11]" /><label
+										for="c45f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c46f110"  type="radio" value="46" name="customPrice[0][11]" /><label
+										for="c46f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="16. Ред Хот Чили Пепперс" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="51" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="8" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice52">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >240 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/skorpions.png" class="img-product" title="17. Скорпионс. Состав: Креветки в чесночном соусе, черри, сливочный сыр, сыр Моцарелла, Сыр Пармезан, руккола."><img src="/images/shop/resized/skorpions_370x370.png" alt="skorpions" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					17. Скорпионс										</h3>
+											<p class="product_s_desc">
+							Креветки в чесночном соусе, черри, сливочный сыр, сыр Моцарелла, Сыр Пармезан, руккола.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct52">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c118f110" checked="checked" type="radio" value="118" name="customPrice[0][11]" /><label
+										for="c118f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c47f110"  type="radio" value="47" name="customPrice[0][11]" /><label
+										for="c47f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c48f110"  type="radio" value="48" name="customPrice[0][11]" /><label
+										for="c48f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="17. Скорпионс" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="52" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="16" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 ">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice53">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >200 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/ac_-dc.png" class="img-product" title="18. AC/DC. Состав: Говяжий фарш, томатный соус, сыр Моцарелла, Сыр Пармезан, репчатый лук, помидор, петрушка, шампиньоны, лисички, сливочный соус, зеленый лук."><img src="/images/shop/resized/ac_-dc_370x370.png" alt="ac_-dc" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					18. AC/DC										</h3>
+											<p class="product_s_desc">
+							Говяжий фарш, томатный соус, сыр Моцарелла, Сыр Пармезан, репчатый лук, помидор, петрушка, шампиньоны, лисички, сливочный соус, зеленый лук.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct53">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c119f110" checked="checked" type="radio" value="119" name="customPrice[0][11]" /><label
+										for="c119f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c49f110"  type="radio" value="49" name="customPrice[0][11]" /><label
+										for="c49f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c50f110"  type="radio" value="50" name="customPrice[0][11]" /><label
+										for="c50f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="18. AC/DC" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="53" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="8" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+					<div class="clear"></div>
+   </div> <!-- end of row -->
+					<div class="horizontal-separator"></div>
+				<div class="row">
+			<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice54">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >220 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/19.kvartet.jpg" class="img-product" title="19. Квартет. Состав: Сыр Моцарелла, Пермезан, Фета, Бри, зелень."><img src="/images/shop/resized/19.kvartet.jpg" alt="19.kvartet" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					19. Квартет										</h3>
+											<p class="product_s_desc">
+							Сыр Моцарелла, Пермезан, Фета, Бри, зелень.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct54">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c120f110" checked="checked" type="radio" value="120" name="customPrice[0][11]" /><label
+										for="c120f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c51f110"  type="radio" value="51" name="customPrice[0][11]" /><label
+										for="c51f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c52f110"  type="radio" value="52" name="customPrice[0][11]" /><label
+										for="c52f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="19. Квартет" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="54" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="15" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice55">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >215 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/morskoj-volk.png" class="img-product" title="20. Морской волк. Состав: Морской коктейль, сливочный сыр, сыр Моцарелла, Сыр Пармезан, черри, майоран."><img src="/images/shop/resized/morskoj-volk_370x370.png" alt="morskoj-volk" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					20. Морской волк										</h3>
+											<p class="product_s_desc">
+							Морской коктейль, сливочный сыр, сыр Моцарелла, Сыр Пармезан, черри, майоран.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct55">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c121f110" checked="checked" type="radio" value="121" name="customPrice[0][11]" /><label
+										for="c121f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c53f110"  type="radio" value="53" name="customPrice[0][11]" /><label
+										for="c53f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c54f110"  type="radio" value="54" name="customPrice[0][11]" /><label
+										for="c54f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="20. Морской волк" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="55" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="16" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 ">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice56">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >270 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/kharlej-peretson.png" class="img-product" title="21. Харлей Перецон. Состав: Бекон, салями, Курица копченая, ветчина, огуцы маринованные, перец болгарский, маслины, петрушка, сыр Моцарелла, Сыр Пармезан, соус томатный."><img src="/images/shop/resized/kharlej-peretson_370x370.png" alt="kharlej-peretson" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					21. Харлей Перецон										</h3>
+											<p class="product_s_desc">
+							Бекон, салями, Курица копченая, ветчина, огуцы маринованные, перец болгарский, маслины, петрушка, сыр Моцарелла, Сыр Пармезан, соус томатный.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct56">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c122f110" checked="checked" type="radio" value="122" name="customPrice[0][11]" /><label
+										for="c122f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c55f110"  type="radio" value="55" name="customPrice[0][11]" /><label
+										for="c55f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c56f110"  type="radio" value="56" name="customPrice[0][11]" /><label
+										for="c56f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="21. Харлей Перецон" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="56" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="8" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+					<div class="clear"></div>
+   </div> <!-- end of row -->
+					<div class="horizontal-separator"></div>
+				<div class="row">
+			<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice57">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >200 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/rolingstounz.png" class="img-product" title="22. Роллинг Стоунз. Состав: Пеперони, томатный соус, сыр Моцарелла, сыр Пермезан, томат, соус Табаско."><img src="/images/shop/resized/rolingstounz_370x370.png" alt="rolingstounz" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					22. Роллинг Стоунз										</h3>
+											<p class="product_s_desc">
+							Пеперони, томатный соус, сыр Моцарелла, сыр Пермезан, томат, соус Табаско.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct57">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c123f110" checked="checked" type="radio" value="123" name="customPrice[0][11]" /><label
+										for="c123f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c57f110"  type="radio" value="57" name="customPrice[0][11]" /><label
+										for="c57f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c58f110"  type="radio" value="58" name="customPrice[0][11]" /><label
+										for="c58f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="22. Роллинг Стоунз" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="57" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="13" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice58">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >300 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/rok-pitstsa.png" class="img-product" title="23. Рок Пицца. Состав: Шейка, перец болгарский, соус томатный, каперсы, черри, шпинат,  сыр Моцарелла, сыр Пармезан."><img src="/images/shop/resized/rok-pitstsa_370x370.png" alt="rok-pitstsa" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					23. Рок Пицца										</h3>
+											<p class="product_s_desc">
+							Шейка, перец болгарский, соус томатный, каперсы, черри, шпинат,  сыр Моцарелла, сыр Пармезан.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct58">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c124f110" checked="checked" type="radio" value="124" name="customPrice[0][11]" /><label
+										for="c124f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c59f110"  type="radio" value="59" name="customPrice[0][11]" /><label
+										for="c59f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c60f110"  type="radio" value="60" name="customPrice[0][11]" /><label
+										for="c60f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="23. Рок Пицца" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="58" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="8" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 ">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice120">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >210 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/untitled-1.png" class="img-product" title="24.  «U2 (Ю ту)». 1. Шейка, ветчина, сыр Моцарелла, сыр Пармезан, соус томатный, розмарин.
+2. Бекон, перец болгарский, сыр Моцарелла, сыр Пармезан, соус томатный, розмарин."><img src="/images/shop/resized/untitled-1_370x370.png" alt="untitled-1" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					24.  «U2 (Ю ту)»										</h3>
+											<p class="product_s_desc">
+							1. Шейка, ветчина, Сыр, соус томатный, розмарин.
+2. Бекон, перец болгарский, Сыр, соус томатный, розмарин.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct120">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c182f110" checked="checked" type="radio" value="182" name="customPrice[0][11]" /><label
+										for="c182f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c183f110"  type="radio" value="183" name="customPrice[0][11]" /><label
+										for="c183f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c184f110"  type="radio" value="184" name="customPrice[0][11]" /><label
+										for="c184f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="24.  «U2 (Ю ту)»" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="120" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="22" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+					<div class="clear"></div>
+   </div> <!-- end of row -->
+					<div class="horizontal-separator"></div>
+				<div class="row">
+			<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice121">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >270 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/untitled-2.png" class="img-product" title="25.  «БИ-2». 1. Говяжий фарш, Cыр, репчатый лук, помидор, петрушка, зеленый лук.
+2. Копченая куриная грудка, перец Чили, томат, опята, маслины,Сыр, Табаско, чабер."><img src="/images/shop/resized/untitled-2_370x370.png" alt="untitled-2" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					25.  «БИ-2»										</h3>
+											<p class="product_s_desc">
+							1. Говяжий фарш, Cыр, репчатый лук, помидор, петрушка, зеленый лук.
+2. Копченая куриная грудка, перец Чили, томат, опята, маслины,Сыр, Табаско, чабер.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct121">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c185f110" checked="checked" type="radio" value="185" name="customPrice[0][11]" /><label
+										for="c185f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c186f110"  type="radio" value="186" name="customPrice[0][11]" /><label
+										for="c186f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c187f110"  type="radio" value="187" name="customPrice[0][11]" /><label
+										for="c187f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="25.  «БИ-2»" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="121" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="22" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 vertical-separator">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice122">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >250 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/untitled-3.png" class="img-product" title="26.  «2 PAC (Ту Пак)». 1. Шейка, охотничьи колбаски, сыр Моцарелла, сыр Пармезан, соус томатный, руккола.
+2. Курица копченая, помидор, сыр Моцарелла, сыр Пармезан, соус томатный, базилик, руккола."><img src="/images/shop/resized/untitled-3_370x370.png" alt="untitled-3" class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					26.  «2 PAC (Ту Пак)»										</h3>
+											<p class="product_s_desc">
+							1. Шейка, охотничьи колбаски, Сыр, руккола.
+2. Курица копченая, помидор, Сыр, базилик, руккола.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct122">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c188f110" checked="checked" type="radio" value="188" name="customPrice[0][11]" /><label
+										for="c188f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c189f110"  type="radio" value="189" name="customPrice[0][11]" /><label
+										for="c189f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c190f110"  type="radio" value="190" name="customPrice[0][11]" /><label
+										for="c190f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="26.  «2 PAC (Ту Пак)»" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="122" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="22" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+				<div class="product floatleft width31 ">
+			<div class="spacer">
+				<div class="product-price marginbottom12" id="productPrice123">
+						<span class="price-crossed" ></span><div class="PricesalesPrice" style="display : block;" ><span class="PricesalesPrice" >170 </span></div><div class="PricediscountAmount" style="display : none;" ><span class="PricediscountAmount" ></span></div>                                                        
+
+						</div>	
+					<div>
+										<a href="/images/shop/untitled-4.png" class="img-product" title="27.  «Двойная доза». 1. Ветчина, грибы шампиньоны, сливочный соус, сыр Моцарелла.
+2. Томат, сыр Моцарелла, базилик,соус томатный."><img src="/images/shop/resized/untitled-4_370x370.png" alt="Двойная пицца: двойная доза, доставка в Екатеринбурге." class="featuredProductImage" border="0" /></a>					</div>
+					                    <h3>
+					27.  «Двойная доза»										</h3>
+											<p class="product_s_desc">
+							1. Ветчина, грибы шампиньоны, сливочный соус, сыр Моцарелла, сыр Пармезан.
+2. Томат, Сыр Пармезан, сыр Моцарелла, базилик,  соус томатный.						</p>
+						
+								<form method="post" class="product" action="index.php" id="addtocartproduct123">
+			
+			
+			
+			
+			
+<div class="addtocart-bar">
+
+<!-- Пытаемся вставить ручные поля  -->
+    <div class="product-fields">
+      <div style="display:inline-block;" class="product-field product-field-type-S">
+        <span class="product-fields-title" ><b>Размер пиццы</b></span>
+                <div class="product-field-display"><div class="field_1"><input id="c191f110" checked="checked" type="radio" value="191" name="customPrice[0][11]" /><label
+										for="c191f110" class="other-customfield">20см. / 350гр.</label></div><div class="field_1"><input id="c192f110"  type="radio" value="192" name="customPrice[0][11]" /><label
+										for="c192f110" class="other-customfield">30см. / 600гр.</label></div><div class="field_1"><input id="c193f110"  type="radio" value="193" name="customPrice[0][11]" /><label
+										for="c193f110" class="other-customfield">40см. / 900гр.</label></div></div>
+ 
+        <div class="product-field-desc"></div>
+        </div><br />
+          </div>
+  
+<div class="product-right">
+<div class="quantity-controls">
+<span class="quantity-controls">
+<input type="button" class="quantity-controls quantity-minus" />
+<span class="quantity-box">
+<input  type="text" class="quantity-input" name="quantity[]" value="1" />
+</span>
+<input type="button" class="quantity-controls quantity-plus" />
+</span>
+</div>
+
+
+<span class="addtocart-button">
+<input type="submit" name="addtocart"  class="addtocart-button" value="" title="" />
+</span>
+</div>
+<div class="clear"></div>
+</div>
+
+<input type="hidden" class="pname" value="27.  «Двойная доза»" />
+<input type="hidden" name="option" value="com_virtuemart" />
+<input type="hidden" name="view" value="cart" />
+<noscript><input type="hidden" name="task" value="add" /></noscript>
+<input type="hidden" name="virtuemart_product_id[]" value="123" />
+<input type="hidden" name="virtuemart_manufacturer_id" value="Array" />
+<input type="hidden" name="virtuemart_category_id[]" value="22" />
+</form>	
+                    <div>
+										</div>
+			</div>
+			<!-- end of spacer -->
+		</div> <!-- end of product -->
+					<div class="clear"></div>
+   </div> <!-- end of row -->
+			
+<div class="vm-pagination"><span style="float:right"></span></div>
+
+	</div><!-- end browse-view --> </div>
+<div id="rigth"> 		<div class="moduletablefixedBox">
+					
+
+<script type="text/javascript">
+jQuery(function() {
+		var offset = jQuery('.moduletablefixedBox').offset();
+		var topPadding = 235;
+		jQuery(window).scroll(function() {
+		if (jQuery(window).scrollTop() > offset.top) {
+		  jQuery('.moduletablefixedBox').stop().animate({marginTop: jQuery(window).scrollTop() - offset.top + topPadding});
+		}
+		else {jQuery('.moduletablefixedBox').stop().animate({marginTop: 210});};});
+	});
+</script>
+<div class="sj-minicart-pro" id="sj_minicart_pro_279970831374576383">
+	<div class="mc-wrap"><!-- Begin mc-wrap -->
+		
+		<div class="mc-header">
+			<div class="mc-yourcart">
+				Your Cart : 				<span class="mc-totalproduct">0</span>
+				<span class="mc-status">  item </span>   
+			</div>
+			<div class="mc-totalprice" style="display:none;" >		
+				Сумма : <strong>0 </strong>	
+			</div>
+			<div class="mc-arrow"></div>
+		</div>
+
+		<div class="mc-content"><!-- Begin mc-content -->
+		<div class="mc-content-1" >
+		
+			<div class="mc-empty" style="display:block;" >
+				Ваша корзина пуста!			</div>
+			
+			<div class="mc-content-inner" style="display:none;"  >
+				<div class="mc-top">
+											<span class="mc-header-title"> <img src="/templates/default/images/cart_vashzakaz.png" alt=""/> </span>
+											<span class="mc-update-btn">Обновить</span>
+				</div>	
+				<div class="mc-list"  >
+					<div class="mc-list-inner" >
+						<div class="mc-product-wrap">
+		
+</div>
+
+	
+						</div>
+				</div>		
+				<div class="mc-space"></div>
+				
+				
+				<div class="mc-footer">
+												<span class="mc-totalprice-footer">
+							Сумма : <strong>0 </strong>						</span>
+															
+										<a class="mc-gotocart" href="/component/virtuemart/cart.html?Itemid=0"><img src="/templates/default/images/cart_zakaz.png" alt="" /></a>	
+					<div class="clear"></div>
+				</div>
+				<div class="mc-space"></div>
+			</div>
+        </div>
+		</div><!-- End mc-content -->
+		
+	</div><!-- End mc-wrap -->
+	
+	
+	
+</div>
+
+
+<script type="text/javascript">
+	//<![CDATA[		
+	$jsmart(document).ready(function($){
+		$minicart = $('#sj_minicart_pro_279970831374576383');
+		
+			/*
+			 * Set display jscrollpanel
+			 */
+			var jscrollDisplay = function(){
+				var $h0 =0;
+				for(var $i=0; $i < $('.mc-product',$minicart).length ;$i++){
+					$h0 = $h0 + $($('.mc-product',$minicart)[$i]).height();
+				}
+				var element = $('.mc-list-inner',$minicart).jScrollPane({
+					showArrows: true
+					
+				});
+				var api = element.data('jsp');
+				if( $h0 > $('.mc-list',$minicart).height()){
+					element;
+				}else{
+					api.destroy(); 
+				}		
+			}
+			
+			/*
+			 * MouseOver - MouseOut
+			 */
+			//$('.mc-wrap' ,$minicart).hover(function(){
+				//var $this = $(this);
+			//	if ($this.data('timeout')){
+			//		clearTimeout($this.data('timeout'));
+			//	}
+			//	if($this.hasClass('over')){
+			//		return ;
+			//	}
+			//	$this.addClass('over');
+			//	$('.mc-content', $this).slideDown(250);
+			//	jscrollDisplay(); 
+			//}, function(){
+			//	var $this = $(this);
+			//	var timeout = setTimeout(function(){            
+			//		$('.mc-content', $this).not(':animated').slideUp(250);
+			//		$this.removeClass('over');
+	        //	 }, 250);
+			//	$this.data('timeout', timeout);
+			//});		
+			
+			/*
+			 *  Ajax url
+			 */
+			var ajax_url = 'http://www.hardpizza.ru/';
+		
+			/*
+			 * Refresh
+			 */ 
+			var productsRefresh = function(cart){
+				var $cart = cart ? $(cart) : $minicart;
+				$.ajax({
+					type: 'POST',
+					url: ajax_url,
+					data: {
+						minicart_ajax:1,
+						option: 'com_virtuemart',
+						minicart_task: 'refresh',
+						minicart_modid:'105',
+						view: 'cart'
+					},	
+					success: function(list){
+						var $mpEmpty = $cart.find('.mc-product-zero');					
+						$('.mc-product-wrap',$cart).html($.trim(list.list_html));
+						$('.mc-totalprice ,.mc-totalprice-footer',$cart).html(list.billTotal);
+						$('.mc-totalproduct',$cart).html(list.length);
+						deleteProduct();
+						if(list.length>1){
+							$cart.find('.mc-status').html(' items');	
+						}else{
+							$cart.find('.mc-status').html(' item');	
+						}
+						
+						if(list.length>0){
+							$cart.find('.mc-empty').hide();
+							$cart.find('.mc-content-1').show();
+							$cart.find('.mc-content-inner').show();
+							$cart.find('.mc-totalprice').show();
+							$cart.find('.mc-checkout-top').show();
+					 		$mpEmpty.remove();
+						}else{
+							$cart.find('.mc-totalprice').hide()	;
+							$cart.find('.mc-content-1').hide();
+							$cart.find('.mc-content-inner').hide();
+							$cart.find('.mc-empty').show();
+							$cart.find('.mc-checkout-top').hide();
+						}
+						jscrollDisplay(); 
+					},
+					dataType: 'json'
+				});
+				return;
+			}
+			
+			/*
+			 * Event Addtocart Button - no load page
+			 */
+			$('input[name="addtocart"]').bind('click.mini',function(){
+					if ($minicart.data('timeout')){
+							clearTimeout($minicart.data('timeout'));
+						}
+					var timeout = setTimeout(function(){
+						productsRefresh();
+					},500);
+					$minicart.data('timeout',timeout);
+			});
+		
+			/*
+			 *  Set coupon
+			 */
+			$('.coupon-button-add',$minicart).click(function(){
+					$('.preloader',$minicart).show();
+					$('.coupon-message',$minicart).hide(); 
+					$('.coupon-input',$minicart).hide();
+					$('.coupon-title',$minicart).hide();	
+					$.ajax({
+						type: 'POST',
+						url : ajax_url,
+						data: {					
+							minicart_ajax: 1,
+							option: 'com_virtuemart',
+							view:'cart',
+							minicart_task: 'setcoupon',
+							coupon_code: $('.coupon-code', $minicart).val(),
+							tmpl: 'component'					
+						},
+						success: function($json){
+							console.log($json);
+								$('.preloader',$minicart).hide();
+							if($json.status && $json.status==1)	{
+								$('.coupon-message',$minicart).hide();
+								$('.coupon-input',$minicart).hide();					
+								$('.coupon-label',$minicart).show();
+								$('.coupon-title',$minicart).show();
+								$('.coupon-text',$minicart).html($json.message);
+								 productsRefresh(); 
+							}else{
+								$('.coupon-title',$minicart).show();
+								$('.coupon-input',$minicart).show();
+								$('.coupon-message',$minicart).show();
+							}
+																	 
+						},
+						dataType: 'json'
+					});
+			});
+		
+			/*
+			 * Close coupon
+			 */
+			$('.coupon-close',$minicart).click(function(){			
+				$('.preloader',$minicart).show();
+				$('.coupon-label',$minicart).hide();
+				$('.coupon-title',$minicart).hide();	
+				$.ajax({
+					type: 'POST',
+					url : ajax_url,
+					data: {					
+						minicart_ajax: 1,
+						view:'cart',
+						option: 'com_virtuemart',
+						minicart_task: 'setcoupon',
+						coupon_code: null,
+						tmpl: 'component'	
+					},
+					success: function($json){							
+						$('.preloader',$minicart).hide();
+						$('.coupon-title',$minicart).show();
+						$('.coupon-input',$minicart).show();					
+						$('.coupon-code', $minicart).val('Enter your Coupon code');
+					 	productsRefresh();				 
+					},
+					dataType: 'json'
+				});
+				
+			});
+
+			/*
+			 * Update Products
+			 */ 
+			$('.mc-update-btn',$minicart).click(function(){
+				var product_update = $('.mc-product', $minicart), array_id = [], array_qty = [];
+				product_update.each(function(){
+					var $this = $(this);
+					var product_id = $('.product-id', $this).text();
+					var	qty = $( $this.find('.mc-quantity')).val();
+						array_id.push(product_id);
+						array_qty.push(qty);
+						if(qty==0){
+							$this.addClass('mc-product-zero');
+						}
+				});
+				
+				$.ajax({
+					type: 'POST',
+					url : ajax_url,
+					data: {
+						minicart_ajax:1,
+						tmpl: 'component',
+						option: 'com_virtuemart',
+						view: 'cart',
+						minicart_task: 'update',
+						cart_virtuemart_product_id: array_id, 
+						quantity: array_qty 
+					},
+					success: function($json){
+						if($json.status && $json.status==1){
+							productsRefresh();
+						}
+					},
+					dataType: 'json'
+				});
+			});
+			
+			/*
+			 * Delete product
+			 */
+			var deleteProduct = function(){	
+			var product_delete= $('.mc-product', $minicart);
+				product_delete.each(function(){
+					var $this = $(this);
+					var product_id = $('.product-id', $this).text();
+					$('.mc-remove', $this).click(function(){
+						$this.addClass('mc-product-zero');	
+						$.ajax({
+							type: 'POST',
+							url : ajax_url,
+							data: {
+								minicart_ajax:1,
+								tmpl: 'component',
+								option: 'com_virtuemart',
+								view: 'cart',
+								minicart_task: 'delete',
+								cart_virtuemart_product_id: product_id // important
+							},
+							success: function($json){
+								console.log($json);
+								if($json.status && $json.status==1){
+									productsRefresh();
+								}
+							},
+							dataType: 'json'
+						});
+						});
+					});
+			}
+			deleteProduct();
+	});
+	//]]>
+	</script>		</div>
+	 </div>
+</div>
+<div id="footer"> 		<div class="moduletablealkomir66">
+					
+
+<div class="customalkomir66"  >
+	<object
+type="application/x-shockwave-flash" data="/banner/alcomig66.swf" 
+width="140" height="220">
+
+</object> </div>
+		</div>
+			<div class="moduletablevk-widget">
+					
+
+<div class="customvk-widget"  >
+	<div id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "190", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 52893324);
+</script></div>
+		</div>
+			<div class="moduletablelike">
+					
+
+<div class="customlike"  >
+	<div class="like_button">
+<!-- AddThis Button BEGIN -->
+<script type="text/javascript">
+  VK.init({apiId: 3651810, onlyWidgets: true});
+</script>
+<div class="addthis_toolbox addthis_default_style">
+<div style ="float:left" id="vk_like"></div>
+<script type="text/javascript">
+VK.Widgets.Like("vk_like", {type: "mini"});
+</script>
+<a class="addthis_button_facebook_like" fb:like:locale="en_US"></a>
+<!-- Place this tag where you want the +1 button to render. -->
+<div style ="float:left" class="g-plusone" data-size="medium" data-href="http://www.hardpizza.ru"></div>
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'ru'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div style ="float:left" id="ok_shareWidget"></div>
+<script type="text/javascript">
+!function (d, id, did, st) {
+  var js = d.createElement("script");
+  js.src = "http://connect.ok.ru/connect.js";
+  js.onload = js.onreadystatechange = function () {
+  if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+    if (!this.executed) {
+      this.executed = true;
+      setTimeout(function () {
+        OK.CONNECT.insertShareWidget(id,did,st);
+      }, 0);
+    }
+  }};
+  d.documentElement.appendChild(js);
+}(document,"ok_shareWidget","http://www.hardpizza.ru","{width:145,height:25,st:'rounded',sz:20,ck:3}");
+</script>
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=undefined"></script>
+<!-- AddThis Button END -->
+</div></div>
+		</div>
+			<div class="moduletable_footermenu">
+					
+
+<div class="custom_footermenu"  >
+	<div class="guestbook">
+<a href="http://www.hardpizza.ru/guestbook">Отзывы и предложения</a>
+</div>
+<div class="card">
+<div class="card_text">
+<a href="http://www.hardpizza.ru/usloviya-oplaty-bankovskoj-kartoj.html">Условия оплаты банковской картой</a>
+</div>
+<img src="/images/logos.png" height="50" alt="Logos" />
+<img src="/images/Verfied_by_VISA.bmp" height="50" alt="Verfied_by_VISA" />
+<img src="/images/MasterCard_SecureCode.bmp" height="50" alt="MasterCard_SecureCode" />
+</div></div>
+		</div>
+			<div class="moduletable">
+					
+
+<div class="custom"  >
+	<div class="footer">
+
+<div class="copyright">
+© 2013, <a href="http://www.hardpizza.ru"> Hard Pizza.</a> г. Екатеринбург, ул. Московская, 193б, e-mail:
+ <script type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy82008 = '&#101;b&#117;rgf&#111;&#111;d' + '&#64;';
+ addy82008 = addy82008 + 'm&#97;&#105;l' + '&#46;' + 'r&#117;';
+ var addy_text82008 = '&#101;b&#117;rgf&#111;&#111;d' + '&#64;' + 'm&#97;&#105;l' + '&#46;' + 'r&#117;';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy82008 + '\'>');
+ document.write(addy_text82008);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>Этот адрес электронной почты защищен от спам-ботов. У вас должен быть включен JavaScript для просмотра.
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script>
+</div>
+<div class="counter">
+<!-- Начало кода счетчика UralWeb -->
+<script language="JavaScript" type="text/javascript">
+<!--
+  uralweb_d=document;
+  uralweb_a='';
+  uralweb_a+='&r='+escape(uralweb_d.referrer);
+  uralweb_js=10;
+//-->
+</script>
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+  uralweb_a+='&j='+navigator.javaEnabled();
+  uralweb_js=11;
+//-->
+</script>
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+  uralweb_s=screen;
+  uralweb_a+='&s='+uralweb_s.width+'*'+uralweb_s.height;
+  uralweb_a+='&d='+(uralweb_s.colorDepth?uralweb_s.colorDepth:uralweb_s.pixelDepth);
+  uralweb_js=12;
+//-->
+</script>
+<script language="JavaScript1.3" type="text/javascript">
+<!--
+  uralweb_js=13;
+//-->
+</script>
+<script language="JavaScript" type="text/javascript">
+<!--
+uralweb_d.write('<a style="float:left;padding: 3px;" href="http://www.uralweb.ru/rating/go/hardpizza">'+
+'<img border="0" src="http://hc.uralweb.ru/hc/hardpizza?js='+
+uralweb_js+'&rand='+Math.random()+uralweb_a+
+'" width="88" height="31" alt="Рейтинг UralWeb" /><'+'/a>');
+//-->
+</script>
+
+<noscript>
+<a style="float:left;padding: 3px;" href="http://www.uralweb.ru/rating/go/hardpizza">
+<img border="0" src="http://hc.uralweb.ru/hc/hardpizza?js=0" width="88" height="31" alt="Рейтинг UralWeb" /></a>
+</noscript>
+<!-- конец кода счетчика UralWeb -->
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a style='float:left;padding: 3px;' href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+<script type="text/javascript">//<![CDATA[
+(function(w,n,d,r,s){d.write('<div><a style="float:left;padding: 0 3px;" href="http://top.mail.ru/jump?from=2353810"><img src="'+
+('https:'==d.location.protocol?'https:':'http:')+'//top-fwz1.mail.ru/counter?id=2353810;t=130;js=13'+
+((r=d.referrer)?';r='+escape(r):'')+((s=w.screen)?';s='+s.width+'*'+s.height:'')+';_='+Math.random()+
+'" style="border:0;" height="40" width="88" alt="Рейтинг@Mail.ru" /><\/a><\/div>');})(window,navigator,document);//]]>
+</script><noscript><div><a style="float:left;padding: 0 3px;" href="http://top.mail.ru/jump?from=2353810">
+<img src="//top-fwz1.mail.ru/counter?id=2353810;t=130;js=na" style="border:0;"
+height="40" width="88" alt="Рейтинг@Mail.ru" /></a></div></noscript>
+
+</div>
+</div></div>
+		</div>
+	
+</div>
+
+</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter21134608 = new Ya.Metrika({id:21134608,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/21134608" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25516168-4', 'hardpizza.ru');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
